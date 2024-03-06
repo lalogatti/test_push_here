@@ -18,6 +18,6 @@ jobs:
         fetch-depth: 0
     - uses: cniethammer/git-repo-sync@cb1067d118c0c209bcded585b5c78e581bb0dfec
       with:
-        target-url: 'https://codehub.hlrs.de/coes/space/test_push/.github/workflows/github-to-gitlab-push-sync.git'
+        target-url: 'https://codehub.hlrs.de/coes/space/test_push.git'
         target-username: ${{ secrets.ACCESS_TOKEN_NAME }}
         target-token: ${{ secrets.ACCESS_TOKEN }}
