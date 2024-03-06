@@ -1,13 +1,13 @@
-# from flask import Flask, abort
-# from markupsafe import escape
+from flask import Flask, abort
+from markupsafe import escape
 
-# app = Flask(__name__)
+app = Flask(__name__)
 
 
-# @app.route('/')
-# @app.route('/index/')
-# def hello():
-#     return '<h1>Hello, World!</h1>'
+@app.route('/')
+@app.route('/index/')
+def hello():
+    return '<h1>Hello, World!</h1>'
 
 # @app.route('/about/')
 # def about():
